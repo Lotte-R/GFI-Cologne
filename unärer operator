@@ -1,0 +1,14 @@
+void main() {
+  int zahl = 1;
+  zahl = zahl + 5;
+  zahl = zahl * zahl;
+  print (zahl);
+  
+  zahl ++;
+  print(zahl);
+  
+  int x=2;
+  x *= x;
+  print(x);
+  
+}
