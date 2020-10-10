@@ -1,0 +1,26 @@
+void main() {
+  int i = 1;
+  int y = 2;
+  
+  print(i);
+  print(y); 
+  
+  double one = 3.0;
+  double two = 4.5;
+  
+  print(one);
+  print(two);
+  
+  String wort = "hello";
+  String wort2 = "bye" ;
+    
+  print (wort);
+  print(wort2);
+  
+  bool no = false;
+  bool yes = true;
+  
+  print(no);
+  print(yes);
+  
+}
