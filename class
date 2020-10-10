@@ -1,0 +1,40 @@
+void main() {
+  
+ Essen eis = Essen();
+  eis.geschmack = "Erdbeere";
+  eis.menge = 2;
+  eis.zeigeEigenschaften();
+  
+ Essen kuchen = Essen();
+  kuchen.geschmack = "schokolade";
+  kuchen.menge = 1;
+  kuchen.zeigeEigenschaften();
+
+ Essen2 kekse = Essen2("vanille", 20);
+  kekse.zeige();
+  
+}
+
+class Essen {
+  String geschmack;
+  int menge;
+  
+  void zeigeEigenschaften(){
+    print(this.geschmack);
+    print(this.menge);
+  }
+}
+
+class Essen2 {
+  String geschmack;
+  int menge;
+  
+  Essen2(String geschmack, int menge) {
+    this.geschmack = geschmack;
+    this.menge = menge;
+    }
+  void zeige() {
+    print(this.geschmack);
+    print(this.menge);
+  }
+}
