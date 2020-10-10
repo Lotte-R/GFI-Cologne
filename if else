@@ -1,0 +1,11 @@
+void main() {
+  
+int zahlengrenze = 10;
+  
+if (zahlengrenze > 10) {
+  print ("YES");
+}
+  else {
+    print ("Zahlengrenze nicht größer als 10");
+  }
+}
